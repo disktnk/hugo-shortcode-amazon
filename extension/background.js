@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "copyAmazonShortcode",
-    title: "Copy Hugo Shortcode",
+    title: "Copy Amazon Card Shortcode",
     contexts: ["page"],
     documentUrlPatterns: ["https://www.amazon.co.jp/*"]
   });
