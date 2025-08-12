@@ -1,0 +1,12 @@
+{{- $url := .Get "url" }}
+{{- $isbn := .Get "isbn" -}}
+{{- $title := .Get "title" -}}
+{{- $author := .Get "author" -}}
+<div class="amazon-card">
+    <a href="{{ $url }}"></a>
+    <img src="https://images.amazon.com/images/P/{{ $isbn }}.09_SL110_.jpg" />
+    <div class="amazon-card-detail">
+        <span class="amazon-card-detail-title">{{ $title }}</span>
+        <span class="amazon-card-detail-author">{{ $author }}</span>
+    </div>
+</div>
