@@ -3,7 +3,7 @@
   "name": "Amazon Shortcode Copier",
   "version": "0.1",
   "description": "Copy the title, author, and ISBN from the Amazon product page",
-  "permissions": ["clipboardWrite", "activeTab", "scripting"],
+  "permissions": ["clipboardWrite", "activeTab", "scripting", "contextMenus"],
   "host_permissions": ["https://www.amazon.co.jp/*"],
   "action": {
     "default_title": "Amazon ISBN Copier"

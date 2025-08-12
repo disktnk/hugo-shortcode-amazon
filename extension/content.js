@@ -10,7 +10,7 @@
   const isbn = Array.from(document.querySelectorAll('#detailBullets_feature_div li'))
     .map(li => li.textContent)
     .find(text => text.includes('ISBN-10'))
-    ?.match(/\d{10}/)?.[0] || 'ISBN not found';
+    ?.match(/\d{10}/)?.[0] || '';
 
   const result = `{{< amazon\n  url="${url}"\n  title="${title}"\n  author="${author}"\n  isbn="${isbn}" >}}`;
   navigator.clipboard.writeText(result).then(() => {
