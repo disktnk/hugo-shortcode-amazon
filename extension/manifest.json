@@ -6,7 +6,7 @@
   "permissions": ["clipboardWrite", "activeTab", "scripting", "contextMenus"],
   "host_permissions": ["https://www.amazon.co.jp/*"],
   "action": {
-    "default_title": "Amazon ISBN Copier"
+    "default_title": "Amazon Shortcode Copier"
   },
   "background": {
     "service_worker": "background.js"
