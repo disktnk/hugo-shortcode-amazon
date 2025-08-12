@@ -40,4 +40,14 @@ layouts/
 
 show as
 
-![上記shortcodeの表示例](image/example.png)
+![card capture](image/example_card.png)
+
+## Chrome extension
+
+1. access to `chrome://extensions`
+1. enable "Developer mode"
+1. add extension files via "Load unpacked"
+
+copy shortcode via context menu
+
+![context menu capture](image/example_extention.png)
